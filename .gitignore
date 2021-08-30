@@ -1,0 +1,9 @@
+coverage
+pkg
+.DS_Store
+.bundle/
+*.log
+.idea
+*.gem
+*.log
+/Gemfile.lock
