@@ -27,6 +27,10 @@ module Pod
       self.arguments = 'NAME'
 
       def initialize(argv)
+
+        require 'cocoapods-thm-cmd/native/podfile'
+        require 'cocoapods-thm-cmd/native/podfile_env'
+
         @name = argv.shift_argument
         super
       end
